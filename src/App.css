@@ -164,7 +164,7 @@ a {
 
 .navbar-light .navbar-toggler-icon {
   background-image: url("./assets/images/bars-solid.svg") !important;
-  
+
 }
 
 .navbar {
@@ -181,37 +181,33 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, rgba(158, 7, 120), rgba(37, 26, 192));
+  background-color: #219bda;
   color: white;
   text-align: center;
   padding: 20px;
 }
-.card-overlay p{
+
+.card-overlay p {
   color: #fff;
   margin-top: 25%;
   font-size: 20px;
 }
+
 .card-container:hover .card-overlay {
   display: block;
 }
 
-.box {
-  /* width: 200px;
-  height: 200px; */
-  background: linear-gradient(45deg, #ff7e5f, #feb47b) ;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adjust the shadow to your liking */
-  margin: 50px auto;
-}
 
-.theme-text{
+
+.theme-text {
   color: #219bda !important;
 }
 
-.lead{
+.lead {
   color: #000 !important;
 }
-.card-title{
+
+.card-title {
   color: #fff !important;
 }
 

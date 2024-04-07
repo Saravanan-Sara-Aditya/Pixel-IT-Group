@@ -23,7 +23,7 @@ const Telecom = () => {
                 <div class="">
                     <div class="row flex-center pt-8 pt-lg-8 pb-lg-9 pb-xl-0 glassmorphism-bg-9">
                         <div class="col-md-11 col-lg-8 col-xl-12 pb-7 pb-xl-5 text-center text-xl-start">
-                            <h1 class="text-white container fw-bold">
+                            <h1 class="theme-text container fw-bold">
                                 Empowering Connectivity Through Advanced Telecom Solutions
                             </h1>
                             <p class="lead container text-capitalize text-white opacity-75">
