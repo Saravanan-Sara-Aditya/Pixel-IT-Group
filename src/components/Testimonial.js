@@ -22,7 +22,7 @@ const DesktopsLaptops = () => {
               <h1 data-aos="fade" class="text-white container fw-bold">
                 Desktops & Laptops
               </h1>
-              <p data-aos="fade" class="lead container text-capitalize text-white opacity-75">
+              <p data-aos="fade" class="lead container text-capitalize text-start text-white opacity-75">
                 We specialize in offering dependable and robust desktops and laptops designed for commercial use, backed by long-term support and competitive pricing. Our expertise lies in providing the best value compared to other vendors. We offer products from renowned companies, along with a comprehensive range of accessories and spare parts including HDDs, SSDs, RAM, batteries, headsets, monitors, printers, and more.
                 We provide desktops and laptops from the following reputable brands:
                 <span className='d-block mt-2 mb-0'>

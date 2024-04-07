@@ -22,7 +22,7 @@ const SoftwareSolutions = () => {
                             <h1 data-aos="fade" class="text-white container fw-bold">
                                 Software Solutions
                             </h1>
-                            <p data-aos="fade" class="lead container text-capitalize text-white opacity-75">
+                            <p data-aos="fade" class="lead container text-capitalize text-start text-white opacity-75">
                             We offer a range of software solutions from industry-leading providers to meet your business needs. Our offerings include software products from:
                                <span className='d-block mt-2 mb-0'>
 

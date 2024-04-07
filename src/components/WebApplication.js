@@ -23,7 +23,7 @@ const WebApp = () => {
                             <h1 data-aos="fade" class="text-white container fw-bold">
                             Web & Mobile Application Development
                             </h1>
-                            <p data-aos="fade" class="lead container text-capitalize text-white opacity-75">
+                            <p data-aos="fade" class="lead container text-capitalize text-start text-white opacity-75">
                             We understand the paramount importance of a robust online presence in today's digital landscape. Our tailored website development and support services are meticulously crafted to help businesses establish a compelling brand identity, enhance user engagement, and drive revenue growth. Here's how we excel in delivering top-notch solutions.
                                 <span className='d-block mt-2 mb-0'>
 

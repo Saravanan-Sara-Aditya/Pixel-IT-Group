@@ -22,7 +22,7 @@ const CloudSupport = () => {
                             <h1 data-aos="fade" class="text-white container fw-bold">
                             Cloud Services
                             </h1>
-                            <p data-aos="fade" class="lead container text-capitalize text-white opacity-75">
+                            <p data-aos="fade" class="lead container text-capitalize text-start text-white opacity-75">
                             We specialize in implementing a wide array of cloud services, leveraging the expertise of our highly experienced and certified cloud engineers. Our team excels in seamlessly integrating cloud solutions into your infrastructure, including virtual machines, storage, virtual networks, load balancers, and establishing secure connections between on-premises networks and the cloud using technologies like Site-to-Site VPN. We offer comprehensive support and services across the following cloud platforms :
                             <span className='d-block mt-2 mb-0'>
                            

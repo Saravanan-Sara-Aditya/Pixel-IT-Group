@@ -22,7 +22,7 @@ const APN = () => {
                             <h1 data-aos="fade" class="text-white container fw-bold">
                                 Access Points
                             </h1>
-                            <p data-aos="fade" class="lead container text-capitalize text-white opacity-75">
+                            <p data-aos="fade" class="lead container text-capitalize text-start text-white opacity-75">
                                 We excel in the setup and deployment of Access Points, offering a range of leading brands to meet your specific requirements. Our expertise extends to the following brands:
                                 <span className='d-block mt-2 mb-0'>
 

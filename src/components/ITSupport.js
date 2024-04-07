@@ -20,7 +20,7 @@ const ITSupport = () => {
                             <h1 data-aos="fade" class="text-white container fw-bold">
                             IT Support
                             </h1>
-                            <p data-aos="fade" class="lead container text-capitalize text-white opacity-75">
+                            <p data-aos="fade" class="lead container text-capitalize text-start text-white opacity-75">
                             We offer comprehensive IT operations services tailored to your needs. Our services encompass servers and desktops patching, troubleshooting, and proficient management of cloud virtual machines on Azure, AWS, or any other platform. We also specialize in SharePoint and O365 management, along with website maintenance. Additionally, we provide robust support for user issues, including email delivery problems, desktop hardware and software issues, printer troubleshooting, and more.
                             </p>
                         </div>

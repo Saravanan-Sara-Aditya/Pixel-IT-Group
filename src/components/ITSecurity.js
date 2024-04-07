@@ -22,7 +22,7 @@ const ITSecurity = () => {
                             <h1 data-aos="fade" class="text-white container fw-bold">
                                 Infrastructure Security
                             </h1>
-                            <p data-aos="fade" class="lead container text-capitalize text-white opacity-75">
+                            <p data-aos="fade" class="lead container text-capitalize text-start text-white opacity-75">
                                 We specialize in safeguarding your infrastructure against attacks and ensuring the protection of sensitive data from exposure or leaks. Our services include deploying various hardware firewalls and implementing optimal configurations to secure your infrastructure effectively. We provide the following hardware devices, backed by long-term support and expertise:
                                 <span className='d-block mt-2 mb-0'>
 

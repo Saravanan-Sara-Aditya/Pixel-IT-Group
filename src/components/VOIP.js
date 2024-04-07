@@ -22,7 +22,7 @@ const VOIP = () => {
                             <h1 data-aos="fade" class="text-white container fw-bold">
                                 VOIP Solution
                             </h1>
-                            <p data-aos="fade" class="lead container text-capitalize text-white opacity-75">
+                            <p data-aos="fade" class="lead container text-capitalize text-start text-white opacity-75">
                                 We supply VOIP devices, including IP Phones and VOIP Headsets, equipped with cutting-edge noise cancellation technology to elevate your calling experience. As esteemed partners with renowned VOIP providers and manufacturers, we guarantee dependable service and top-notch products from:
                                 <span className='d-block mt-2 mb-0'>
 

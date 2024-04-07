@@ -20,7 +20,7 @@ const ITServices = () => {
                             <h1 data-aos="fade" class="text-white container fw-bold">
                             IT Infrastructure Services
                             </h1>
-                            <p data-aos="fade" class="lead container text-capitalize text-white opacity-75">
+                            <p data-aos="fade" class="lead container text-capitalize text-start text-white opacity-75">
                                 We specialize in crafting comprehensive network infrastructures, encompassing the setup of essential servers such as ADDS, DNS, DHCP, etc., across both Windows and Linux platforms. Our expertise extends to meticulous cabling work for network configurations, as well as fixing racks for network devices and servers, seamlessly integrating managed and unmanaged switches. Additionally, we excel in deploying advanced security measures, including firewall installations and access point setups, ensuring robust protection for your network environment.
                             </p>
                         </div>

@@ -22,7 +22,7 @@ const Servers = () => {
                             <h1 data-aos="fade" class="text-white container fw-bold">
                                 Servers
                             </h1>
-                            <p data-aos="fade" class="lead container text-capitalize text-white opacity-75">
+                            <p data-aos="fade" class="lead container text-capitalize text-start text-white opacity-75">
                             We offer a diverse range of servers from top-tier brands, which we customize to align perfectly with your unique requirements. Our expert team not only tailors each server solution to your specifications but also provides informed recommendations on capacity based on your needs. The brands we provide include:
                                <span className='d-block mt-2 mb-0'>
 

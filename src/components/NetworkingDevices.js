@@ -22,7 +22,7 @@ const NetworkingDevices = () => {
                             <h1 data-aos="fade" class="text-white container fw-bold">
                                 Networking Devices
                             </h1>
-                            <p data-aos="fade" class="lead container text-capitalize text-white opacity-75">
+                            <p data-aos="fade" class="lead container text-capitalize text-start text-white opacity-75">
                             We offer a comprehensive range of network devices to meet your networking needs, sourced from reputable manufacturers. Our inventory includes top-quality network devices from:
                                 <span className='d-block mt-2 mb-0'>
 
