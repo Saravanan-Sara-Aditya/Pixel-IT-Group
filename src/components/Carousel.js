@@ -1,43 +1,11 @@
-import React, { useState, useEffect, Suspense } from 'react';
-import img01 from "../assets/images/telecom2.jpg"
-import img02 from "../assets/images/building.jpg"
-import img03 from "../assets/images/servers.jpg"
-import img04 from "../assets/images/og.jpg"
-import img05 from "../assets/images/Utilities.jpeg"
-import img06 from "../assets/images/SoftwareServices.jpg"
-import img07 from "../assets/images/staff.jpg"
-import LazyImage from './LazyImage';
+import React, { useState, useEffect } from 'react';
+import videoSource from '../assets/images/Bg_Video.mp4';
 
 const slides = [
   {
-    image: img06,
     caption: 'Pixel IT Group',
-    scaption:'Technologies'
   },
-  // {
-  //   image: img06,
-  //   caption: 'Software Services',
-  // },
-  // {
-  //   image: img07,
-  //   caption: 'Staffing',
-  // },
-  // {
-  //   image: img01,
-  //   caption: 'Telecommunication',
-  // },
-  // {
-  //   image: img02,
-  //   caption: 'Building Infrastructure',
-  // },
-  // {
-  //   image: img04,
-  //   caption: 'Oil & Gas',
-  // },
-  // {
-  //   image: img05,
-  //   caption: 'Utilities',
-  // },
+  // Add more slides if needed
 ];
 
 const SlideshowBanner = () => {
@@ -58,13 +26,12 @@ const SlideshowBanner = () => {
           key={index}
           className={`slide slide-${index} ${index === currentSlide ? 'active' : ''}`}
         >
-          <Suspense fallback={<div>Loading...</div>}>
-            <LazyImage src={slide.image} alt={slide.caption} />
-          </Suspense>
-          <h1 className="d-none d-lg-block caption">{slide.caption}</h1>
-          <h1 className="d-lg-none caption1 d-block">{slide.caption}</h1>
-          <h5 className="d-none d-lg-block caption2">{slide.scaption}</h5>
-          <h5 className="d-lg-none caption3 d-block">{slide.scaption}</h5>
+          <video autoPlay loop muted className="video">
+            <source src={videoSource} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <h1 className="d-none anton-regular d-lg-block caption">{slide.caption}</h1>
+          <h1 className="d-lg-none anton-regular caption1 d-block">{slide.caption}</h1>
         </div>
       ))}
       <style jsx>{`
@@ -86,11 +53,10 @@ const SlideshowBanner = () => {
         .active {
           opacity: 1;
         }
-        .slide img {
+        .video {
           width: 100%;
           height: 100%;
           object-fit: cover;
-          filter: brightness(0.5);
         }
         .caption {
           position: absolute;
@@ -101,7 +67,6 @@ const SlideshowBanner = () => {
           font-size: 60px; /* Changed to H1 font size */
           font-weight: bold;
           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-          
         }
         .caption1 {
           position: absolute;
@@ -111,28 +76,6 @@ const SlideshowBanner = () => {
           color: white;
           font-weight: bold;
           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-          
-        }
-        .caption2 {
-          position: absolute;
-          top: 60%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          color: white;
-          font-size: 40px; /* Changed to H1 font size */
-          font-weight: bold;
-          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-          
-        }
-        .caption3 {
-          position: absolute;
-          top: 67%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          color: white;
-          font-weight: bold;
-          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-          
         }
         .button {
           position: absolute;

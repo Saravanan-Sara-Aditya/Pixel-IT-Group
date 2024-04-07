@@ -19,10 +19,10 @@ const APN = () => {
                 <div class="">
                     <div data-aos="fade-left" style={{ height: "100vh" }} class="row flex-center pt-8 pt-lg-8 pb-lg-9 pb-xl-0 glassmorphism-bg-1">
                         <div class="col-md-11 col-lg-8 col-xl-12 pb-7 pb-xl-5 text-center text-xl-start">
-                            <h1 data-aos="fade" class="text-white container fw-bold">
+                            <h1 data-aos="fade-up" class="text-white container fw-bold">
                                 Access Points
                             </h1>
-                            <p data-aos="fade" class="lead container text-capitalize text-start text-white opacity-75">
+                            <p data-aos="fade-left" class="lead container text-capitalize text-start text-white opacity-75">
                                 We excel in the setup and deployment of Access Points, offering a range of leading brands to meet your specific requirements. Our expertise extends to the following brands:
                                 <span className='d-block mt-2 mb-0'>
 

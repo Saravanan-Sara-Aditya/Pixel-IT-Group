@@ -19,22 +19,22 @@ const Contact = () => {
     return (
         <Container className="pb-5">
             
-            <h1 className="fw-bold mt-3 mb-3 text-white" data-aos="fade-up">CONTACT US</h1>
+            <h1 className="fw-bold mt-3 mb-3 theme-text" data-aos="fade-up">CONTACT US</h1>
             <Row>
                 <Col md={6} data-aos="fade-left">
                     <Suspense fallback={<ImageSkeletonLoader />}>
                         <LazyImage src={contact} />
                     </Suspense>
                 </Col>
-                <Col md={6} className='mt-3 mt-lg-0 text-white' data-aos="fade-right">
-                    <h2 className='text-white'>Working Hours</h2>
-                    <p className='lead opacity-75'>09:00 - 18:00</p>
-                    <h2 className='text-white'>Address</h2>
-                    <p className='lead opacity-75'>Kukatpally, Hyderabad, Telangana</p>
-                    <h2 className='text-white'>Email</h2>
-                    <h5 className='text-white'><FontAwesomeIcon color='lightblue'  icon={faEnvelope} flip={true} size='1x'/> contact@pixelitgroup.com </h5>
-                    <h2 className='text-white'>Phone</h2>
-                    <h5 className='text-white'><FontAwesomeIcon  color='lightblue' icon={faPhoneAlt} size='1x' flip={true}  />+91 8125933474</h5>
+                <Col md={6} className='mt-3 mt-lg-0 theme-text' data-aos="fade-right">
+                    <h2 className='theme-text'>Working Hours</h2>
+                    <p className='lead'>09:00 - 18:00</p>
+                    <h2 className='theme-text'>Address</h2>
+                    <p className='lead'>Kukatpally, Hyderabad, Telangana</p>
+                    <h2 className='theme-text'>Email</h2>
+                    <p className='lead theme-black'><FontAwesomeIcon color='#219bda'  icon={faEnvelope} flip={true} size='1x'/> contact@pixelitgroup.com </p>
+                    <h2 className='theme-text'>Phone</h2>
+                    <p className='lead theme-black'><FontAwesomeIcon  color='#219bda' icon={faPhoneAlt} size='1x' flip={true}  />+91 8977568611</p>
                 </Col>
             </Row>
         </Container>

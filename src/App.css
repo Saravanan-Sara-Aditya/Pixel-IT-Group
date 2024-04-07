@@ -139,7 +139,7 @@
 
 
 body {
-  background: #000 !important;
+  background: #fff !important;
 }
 
 html,
@@ -154,7 +154,7 @@ body {
 }
 
 .glow:hover {
-  color: #007bff !important;
+  color: #000 !important;
   transition: all 0.5s;
 }
 
@@ -163,8 +163,8 @@ a {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("./assets/images/hamburger.svg") !important;
-  /* background: #000; */
+  background-image: url("./assets/images/bars-solid.svg") !important;
+  
 }
 
 .navbar {
@@ -205,5 +205,18 @@ a {
 }
 
 .theme-text{
-  color: #2186bb !important;
+  color: #219bda !important;
+}
+
+.lead{
+  color: #000 !important;
+}
+.card-title{
+  color: #fff !important;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
 }
